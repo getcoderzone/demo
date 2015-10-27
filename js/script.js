@@ -21,7 +21,7 @@
 	
 	//*********Smooth Down *********//
 	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
+	  $('#our-service').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
 	      var target = $(this.hash);
